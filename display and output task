@@ -1,0 +1,20 @@
+### TASK ONE 
+
+firstname = str(input("Please enter your first name:"))
+print("Hello" , firstname , "!" ) 
+
+### TASK TWO 
+
+firstname = str(input("Please enter your first name:"))
+surname = str(input("Thanks! Please now enter your surname"))
+print("Hello" , firstname , surname , "!" ) 
+
+### TASK THREE 
+
+print("what do you call a bear with no teeth? \n A GUMMY BEAR!!") 
+
+### TASK FOUR
+
+num1 = int(input("Enter a number please"))
+num2 = int(input("Enter another number please"))
+print("The total is:" , num1 + num2) 
