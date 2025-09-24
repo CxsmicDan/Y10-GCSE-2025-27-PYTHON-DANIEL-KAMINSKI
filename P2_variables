@@ -1,0 +1,4 @@
+nameone = str(input("enter an animal's name>>"))           
+nametwo = str(input("enter another animal's name>>"))           
+namethree = str(input("enter another animal's name>>"))         
+print(nameone , "\n" ,nametwo , "\n" ,namethree)
