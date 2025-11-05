@@ -1,0 +1,2 @@
+num = str(input("add a decimal number"))
+print(round(float(num)))
