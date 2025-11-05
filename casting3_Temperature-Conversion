@@ -1,0 +1,3 @@
+tempc = str(input("enter the temperature in celcius"))
+tempf = (float(tempc) * 9/5) + 32
+print(tempf)
