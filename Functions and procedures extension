@@ -1,0 +1,36 @@
+
+
+30 January 2026
+11:44
+
+Q1
+A shop offers a discount on items. Create a function called calculate_sale_price. The function should:
+	• Take two parameters: original_price (float) and discount_percent (integer).
+	• Calculate the new price by removing the percentage from the original price.
+	• Return the new price.
+(Example: If inputs are 100.00 and 20, the function returns 80.00)
+def calculate_sale_price(original_price , discount_percentage):
+    new_price = original_price * (discount_percentage / 100)
+    return new_price
+original_price = float(input("enter the price of the item"))
+discount_percentage = int(input("enter the discount as a percentage(without the percentage sign) "))
+complete_price = calculate_sale_price(original_price , discount_percentage)
+print(complete_price)
+    
+Q2
+A theme park charges different ticket prices based on age. Write a function called get_ticket_cost. The function should:
+	• Take age (integer) as a parameter.
+	• If the age is under 5, return 0.
+	• If the age is between 5 and 17 (inclusive), return 10.
+	• If the age is 18 or older, return 20.
+ 
+def get_ticket_cost (age):
+    if age < 5:
+        return 0 
+    elif age >= 5 and age <= 17 : 
+        return 10 
+    elif age >=18: 
+        return 20 
+age2 = int(input("enter age"))
+ticket_cost = get_ticket_cost(age2)
+print("ticket price: £" ,ticket_cost)
