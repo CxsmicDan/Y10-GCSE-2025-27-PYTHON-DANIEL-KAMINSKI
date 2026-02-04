@@ -1,0 +1,7 @@
+milk = 3
+total = 0
+dccard = str(input("do you have a discount card? y/n"))
+if dccard == "y":
+    total = milk * 0.75 
+else: 
+    total = milk 
