@@ -1,0 +1,42 @@
+1. 
+milk = 3
+total = 0
+dccard = str(input("do you have a discount card? y/n"))
+if dccard == "y":
+    total = milk * 0.75 
+else: 
+    total = milk 
+2.
+score = int(input("Enter your exam score: "))
+
+passed = score >= 40  
+
+print("Score:", score)
+
+if passed:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
+3.
+start = int(input("Enter a starting number: "))
+
+for i in range(start, -1, -1):
+    print(i)
+
+print("Countdown done!")
+4.
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
+5.
+stored_username = "admin"
+stored_password = "password123"
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == stored_username and password == stored_password:
+    print("Login successful!")
+else:
+    print("Incorrect username or password.")
